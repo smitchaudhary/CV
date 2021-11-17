@@ -1,0 +1,227 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[top=1cm, left=1.5cm, right=1.5cm, bottom=1cm]{geometry}
+\usepackage{xcolor}
+\usepackage{marvosym}
+\usepackage{multirow}
+\usepackage[hidelinks]{hyperref}
+\usepackage{textcomp}
+\usepackage{array}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=cyan,
+    pdftitle={Smit_Chaudhary_CV},
+    pdfpagemode=FullScreen,
+    }
+
+\urlstyle{same}
+
+\definecolor{myBlue}{rgb}{0.23,0.45,0.8}
+
+\title{\Huge{\textbf{\textcolor{myBlue}{Smit Chaudhary}} {\textcolor{gray}{ $\mid$ CV}} }}
+\author{}
+\date{}
+
+\begin{document}
+\vspace{-10cm}
+\maketitle
+\pagenumbering{gobble}
+\begin{center}
+\vspace{-2cm}
+%
+\Large{\textsc{\textcolor{gray}{Masters student}, Applied Physics, TU Delft}}\\
+\normalsize%
+\vspace{0.1cm}
+\Mobilefone \phantom{i} +31 0613782478%
+\phantom{x} $\bullet$ \phantom{x}
+\Letter \phantom{i} \href{mailto:S.N.Chaudhary@stydent.tudelft.nl}{S.N.Chaudhary@student.tudelft.nl}%
+\phantom{x} $\bullet$ \phantom{x} %
+\Mundus \phantom{i} \href{http://smitchaudhary.github.io/home}{smitchaudhary.github.io}
+\end{center}%
+%
+\vspace{0.3cm}
+\color{myBlue}
+\Large\textbf{\textit{Education}} \vspace{0.15cm} \normalsize
+\color{gray} \hrule
+\color{black}
+\begin{table}[h!]
+\centering
+\begin{tabular}{@{\phantom{MM}}c@{\phantom{MMM}}c@{\phantom{MMMM}}c@{\phantom{}}}
+\textbf{Year} & \textbf{Degree} & \textbf{Institution} \\ % & \textbf{CGPA/\%} \\
+\hline
+2022$^*$ & Masters of Science in Applied Physics & Delft University of Technology, Delft \\
+2020 &
+Bachelor of Science in Physics &
+Indian Institute of Technology, Kanpur \\ % &
+%7.8/10 \\
+2016 & Class XII (CBSE) & New Tulip International School, Ahmedabad \\ %& 94.6\% \\
+2014 & Class X (CBSE) & Kendriya Vidyalaya, Sabarmati, Ahmedabad \\ % & 10.0/10.0
+\end{tabular}
+\end{table}
+%\vspace{0.2cm}
+%\color{myBlue}
+%\noindent \Large\textbf{\textit{Interests}} \vspace{0.15cm} \normalsize
+%\color{gray} \hrule
+%\color{black}
+%\begin{center}
+% \textbf{\textcolor{gray}{Near Term Quantum Algorithms}} \phantom{i} $\bullet$  %\textbf{\textcolor{gray}{Quantum Optimization}} \phantom{i} $\bullet$ \textbf{\textcolor{gray}{Quantum %Information Theory}}
+%\end{center}
+\color{myBlue}
+\vspace{0.2cm}
+\noindent \Large\textbf{\textit{Key Projects and Experience}} \vspace{0.15cm} \normalsize
+\color{gray} \hrule
+\color{black}
+\begin{itemize}
+    \item \textbf{\textit{Qubit Mapping with Quantum Enhanced Algorithm (In Progress)}} \hfill \textit{Aug'21 - Present}\\
+    \texttt{MSc. Thesis:} \textit{Supervisor : Prof. Sebastian Feld, QuTech, TU Delft}
+    \begin{itemize}
+        \item Inspected quantum walk algorithms and its application in speeding up backtracking problem
+        \item Designed a backtracking based mapping strategy and implemented a quantum walk algorithm to give a quadratic speed up over classical algorithm
+        \item Currently solving routing problem using backtracking techniques and examining ways to extend quantum walk on it for beyond graphs with unbounded degree
+    \end{itemize}
+    \item \textbf{Barren Plateaus in QNN training with correlated Noise (In Progress)} \hfill \textit{Aug'21 - Present} \\
+    \texttt{Honors Track Project:} \textit{Supervisor : Prof. Jordi Tura, Leiden University}
+    \begin{itemize}
+        \item Studied Barren Plateaus in QNN training landscape due to random parameter initialisation as well as due to noise. Reproduced the results for Haar random circuits and local pauli noise
+        \item Examined realistic noises in quantum chips and implemented channels with correlated noise
+        \item Assessed the effect of correlated noises and noise strength on barren plateau and found a tighter upper bound under certain noise strengths for correlated noise
+    \end{itemize}
+
+    \item \textbf{\textit{Quantum Generative Adversarial Network}} \hfill \textit{April - May'21}\\
+    \texttt{Course:} \textit{Applied Quantum Algorithms, Leiden University} \hfill \href{https://github.com/smitchaudhary/QGANs}{\texttt{[CODE]}}\href{https://github.com/smitchaudhary/QGANs/blob/main/Report.pdf}{\texttt{[REPORT]}}
+    \begin{itemize}
+        \item Reviewed Generative Adversarial Networks (GANs) and designed a quantum version of the same
+        \item Extended classical Generator-Discriminator pair to one able of handling Quantum data (quantum states) and produce the desired quantum state
+        \item Performed hyper-parameter optimization and exhibited the dependence of the QCBM on it
+        \item Benchmarked the performance of the QGAN against classical GAN for quantum states
+    \end{itemize}
+    \item \textbf{\textit{Quantum Approximate Optimization Algorithms}} \hfill \textit{Nov'20-Jan'21}\\
+    \texttt{Mentor:} \textit{Prof. Leonardo DiCarlo, TU Delft} \hfill
+    \href{https://github.com/smitchaudhary/QAOA-MaxCut}{\texttt{[CODE]}}\href{https://github.com/smitchaudhary/QAOA-MaxCut/blob/master/Report.pdf}{\texttt{[REPORT]}}\href{https://github.com/smitchaudhary/QAOA-MaxCut/blob/master/Presentation.pdf}{\texttt{[SLIDES]}}
+    \begin{itemize}
+        \item Studied QAOA and its applications for a number of combinatorial optimisation problems
+        \item Examined noises and built a noise model to implement QAOA for Max-Cut using simulator to determine the effect of different kinds of noises
+        \item Modified the algorithm to run it on different superconducting qubits based quantum hardware (IBM's Vigo and QuTech's Starmon5) with reduced calls to the hardware
+        \item Analysed the performance of the algorithm on near term machines and studied the performance with varying circuit depth and different noise models
+    \end{itemize}
+    \item \textbf{\textit{Entanglement distillation on noisy quantum channels}} \hfill \textit{Dec'20-Jan'21}\\
+    \texttt{Mentor:} \textit{Prof. Stephanie Wehner, TU Delft} \hfill
+    \begin{itemize}
+        \item Investigated and compared 3 different 2-to-1 entanglement distillation protocols (EPL, DEJMPS, BBPSSW) and a 3-to-1 protocol under ideal conditions
+        \item Implemented the protocols on the Quantum network simulator \href{https://netsquid.org/}{\texttt{NetSquid}}
+        \item Inspected the performance of distillation protocols and the possibility of entanglement distillation in presence of noisy channels and imperfect initial states (SPAM errors)
+        \item Compared the performance of the protocols for near term noisy quantum channels and examined the effects of noise and presence of quantum memory
+    \end{itemize}
+%    \item \textbf{\textit{Quantum simulations on IBM Quantum Computer}} \hfill \textit{June'19-Aug'19}\\
+%    \texttt{Mentor:} \textit{Prof. P.K. Panigrahi, Physicsal Sciences, IISER Kolkata} \hfill
+%    \begin{itemize}
+%        \item Learned perturbation techniques and examined the theoretical models proposed to understand photoluminescence and energy levels in Quantum Dots
+%        \item Employed IBM Quantum Experience and got hands on knowledge of simulations using the five-qubit quantum computer with different noise models
+%        \item Modelled and solved simplified lower dimensional versions of the three-dimensional system to gain insight into higher-dimensional phenomena. Employed Qiskit to obtain solutions for more complicated systems
+%    \end{itemize}
+    \iffalse
+\end{itemize}
+\color{myBlue}
+\vspace{0.2cm}
+\noindent \Large\textbf{\textit{Key Projects}} \vspace{0.15cm} \normalsize
+\color{gray} \hrule
+\color{black}
+\begin{itemize}
+\fi
+%    \item \textbf{\textit{Sliding Window Lempel-Ziv}} \hfill \textit{Oct'19-Nov'19}\\
+%    \texttt{Mentor:} \textit{Prof. R.K. Bansal, Dept. of Electrical Engineering, IIT Kanpur} \hfill
+
+    \item \textbf{\textit{Quantum Machine Learning}} \hfill \textit{August'19}\\
+    \texttt{Mentor:} \textit{Prof. P.K. Panigrahi, Physicsal Sciences, IISER Kolkata}  \hfill \href{https://link.springer.com/chapter/10.1007/978-981-15-5619-7_8}{\texttt{[LINK]}}
+    \begin{itemize}
+        \item Studeied Classical ML and the connection to hybrid classical-quantum Machine learning
+        \item Analysed Quantum HHL algorithm and its implementation and simulated components of the algorithm on the five-qubit IBM Quantum Computer
+        \item Examined classifiers that use classical and quantum machine learning and contrasted them
+        \item Co-authored the review paper \textit{Quantum Machine Learning : A Review and Current Status} presented at ICDMAI 2020, New Delhi  \hfill \href{https://www.icdmai.org/}{\texttt{[CONFERENCE]}}
+    \end{itemize}
+    \item \textbf{\textit{Quantum Key Distribution using BB84 protocol}} \hfill \textit{May'18-July'18}\\
+    \texttt{Mentor:} \textit{Prof. Saikat Ghosh, Department of Physics, Indian Institute of Technology, Kanpur} \hfill
+    \begin{itemize}
+        \item Developed understanding of informtation theory, various coding algorithms and their optimality
+        \item Learned about quantum and classical communication protocols such as BB84, SPI, and UART
+        \item Set up nultiple sensors such as GPS, accelerometer, and gyroscope and integrated the signal collected from them to deploy a self-aligning network of lasers and detectors for communication
+        \item Used an SoC development board (Zybo Z7) with FPGA \& programmed it using Xilinx SDK and Xilinx Vivado to integrate data from sensor modules and run the stepper motor and laser system
+        \item Established a classical channel using SPI protocol by low-cost lasers and detectors scavenged from old CD drivers. Designed a circuit on a development board to run the system
+        \item Implemented Huffman and variants of Lempel Ziv (LZ77 \& 78) algorithms to encode information
+    \end{itemize}
+%    \item \textbf{\textit{Non local games \& the set of quantum correlations (Tsirelson's Problem)}} \hfill \textit{Mar'18-Apr'19}\\
+%    \texttt{Mentor:} \textit{Prof. Rajat Mittal, Department of Computer Science, IIT, Kanpur} \hfill \href{http://home.iitk.ac.in/~smit/CS682_Presentation.pdf}{\textsc{[SLIDES]}}\\
+%    \texttt{Course:} \textit{Quantum Computing (CS682A)} \hfill \href{http://home.iitk.ac.in/~smit/CS682_Smit_Report.pdf}{\textsc{[REPORT]}} \vspace{-0.1cm}
+%    \begin{itemize}
+%        \item Read about Non-Local games and Quantum Correlations and the implication of Bell's inequality
+%        \item Understood quantum correlations using finite and infinite dimensional quantum strategies, in the limit of finite-dimensional strategies and commuting operator strategies, and established the relations between them
+%        \item Learnt about the proof of non-closure of set of finite-dimensional quantum correlations from \href{https://arxiv.org/abs/1703.08618}{William Slofstra's paper}
+%    \end{itemize}
+%    \item \textbf{\textit{Neural network for global and local temperature prediction}} \hfill \textit{Mar'19-Apr-19}\\
+%    \texttt{Mentor:} \textit{Prof. Mahendra K. Verma, Department of Physics, IIT Kanpur} \hfill \\ %\href{http://home.iitk.ac.in/~smit/PHY473_Presentation.pdf}{\textsc{[SLIDES]}}\\
+%    \texttt{Course:} \textit{Computational Physics (PHY473A)} \hfill %\href{http://home.iitk.ac.in/~smit/PHY473.pdf}{\textsc{[REPORT]}}
+%    \begin{itemize}
+%        \item Did time-series analysis of temperature of various cities using ARIMA model
+%        \item Employed a feed-forward and recurrent neural network using TensorFlow
+%        \item Built and implemented a Recurrent Neural Network trained on historic stock prices data and analysed the action of different optimizers, loss function and network depth
+%    \end{itemize}
+%    \item \textbf{\textit{Bohmian Mechanics and Quantum Information}} \hfill \textit{July'18-Nov'18}\\
+%    \texttt{Mentor:} \textit{Prof. Kaushik Bhattacharya, Department of Physics, IIT, Kanpur} \hfill \href{http://home.iitk.ac.in/~smit/UGP_Presentation.pdf}{\textsc{[SLIDES$\mid$}}\href{http://home.iitk.ac.in/~smit/UGP_Final_Report.pdf}{\textsc{REPORT]}} \vspace{-0.1cm}
+%    \begin{itemize}
+%    \item Read Bohm's original papers on Wave Mechanics and developed an understanding of Bell's inequality and locality and hidden variables (local and non-local)
+%    \item Studied about the Aharanov Bohm Effect and Landau levels, created simulations for the system and reproduced the results and showed quantization of energy levels
+%    \item Examined the relation between Boltzman's statistical ideas, (typicality and chance) to Bohmian postulates and Bohmian Mechanics
+%    \item Investigated the implications and predictions of Bohm's theory in non-relativistic settings. Inspected the proof of non-existence of local hidden variables
+%    \end{itemize}
+
+%    \item \textbf{\textit{Emulating particle in finite well using Analog Circuit}} \hfill \textit{July'18-Nov'18}\\
+%    \texttt{Course:} \textit{Modern Physics Laboratory (PHY315A)} \hfill \href{http://home.iitk.ac.in/~smit/Final-Presentation.pdf}{\textsc{[POSTER$\mid$}}\href{http://home.iitk.ac.in/~smit/PHY315_Final_Report.pdf}{\textsc{REPORT]}}
+%    \begin{itemize}
+%        \item Devised a circuit that mapped variables (such as position and wave amplitude) in a \textit{Particle in a Box} problem to currents and voltages at various points of circuit
+%        \item Created a feedback mechanism to perform \textit{numerical integration} and provide control parameters to avail initial conditions using an analog circuit
+%        \item Visualized the scaled \textit{Wave amplitude} on an oscilloscope for various energies and calculated the scaled eigen energies according to the behavior of the wave.
+%    \end{itemize}
+    \item \textbf{\textit{Temperature dependence of refractive index of liquids}} \hfill \textit{July-Nov'17}\\
+    \texttt{Mentor:} \textit{Prof. Saikat Ghosh, Department of Physics, IIT Kanpur}\hfill \href{http://home.iitk.ac.in/~smit/PHY224_Project_Report.pdf}{\textsc{[REPORT]}}\\
+    \texttt{Course:} \textit{Optics (PHY224A)}
+    \begin{itemize}
+        \item Devised and set up a modified version of \textbf{Michelson's interferometer} with a column of liquid along one arm of the interferometer
+        \item Observed the collapsing circular fringes with changing temperature of the liquid column placed along one of the arms of the interferometer
+        \item Calculated the change in refractive index with changing temperature using the number of fringes collapsed with each degree Celsius change in temperature
+    \end{itemize}
+
+\end{itemize}
+%\color{myBlue}
+%\noindent \Large\textbf{\textit{Relevant Coursework}} \vspace{0.1cm}
+%\hrule \normalsize
+%\color{black}
+%\begin{table}[!h]
+%\begin{tabular}{@{\phantom{x}}l@{\phantom{XX}}l@{\phantom{XX}}l@{\phantom{XX}}l@{\phantom{x}}}
+%Quantum Mechanics         & Quantum Computing & Quantum Field Theory        & Quantum information    \\
+%Machine Learning & Information Theory & Computational Physics & Linear Algebra\\
+%Statistical Mechanics & Modern Physics\textsuperscript{\#}& Optics\textsuperscript{\#}        & Classical %Mechanics\\
+%Probability \& Statistics & Quantum Communication & Introductory Electronics\textsuperscript{\#} & General %Relativity \\
+%\end{tabular}
+%\end{table} \vspace{-0.35cm}
+%\hfill \small{\textit{\# - Lab Course}} \phantom{XXXXXXXX} \\
+\color{myBlue}
+\noindent \Large\textbf{\textit{Technical Skills}} \vspace{0.15cm}
+\hrule \normalsize
+\color{black} \vspace{0.3cm}
+\textbf{Programming:} Python, C/C++, Verilog
+
+\textbf{Utilities:} MATLAB, \LaTeX, Vivado Design Suite, Arduino, Mathematica \\
+
+\color{myBlue}
+\noindent \Large\textbf{\textit{Teaching and Co-curricular activiteis}} \vspace{0.15cm}
+\hrule \normalsize
+\color{black} \vspace{0.3cm}
+\begin{itemize}
+  \item \textbf{Teaching Assistant:} NB2211 - Electronics Instrumentation, TU Delft \hfill 2020-21 \& 2021-22\vspace{-0.17cm}
+  \item \textbf{Volunteer Teacher:} Volunteer teacher for under-priviled students from villages near IIT Kanpur \vspace{-0.17cm}
+  \item \textbf{Editor, Vox Populi:} Editor of \href{https://voxiitk.com/}{\textit{Vox Populi}}, the student journalism body of IIT Kanpur
+\end{itemize}
+\end{document}
