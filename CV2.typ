@@ -65,7 +65,7 @@
 )
 
 #resume-item[
-  - Developed quantum scientific machine learning algorithms using variational quantum circuits to solve aerodynamics PDEs, creating quantum alternatives to physics-informed neural networks
+  - Developed Quantum Scientific Machine Learning (QSciML) algorithms. Built and trained variational quantum circuits to solve industrially relevant aerodynamics PDEs, creating quantum alternatives to fully classical physics-informed neural networks (PINNs)
   - Served as technical lead on European Union funded projects, driving collaboration with major aerospace industry partners
   - Architected quantum software infrastructure and built hardware-aware circuit capabilities, making strategic technical decisions that aligned algorithms with neutral atom hardware constraints while enhancing both open-source and proprietary frameworks
   - Mentored research interns and junior developers, leading to successful project contributions and published research outcomes
@@ -95,7 +95,7 @@
 
 #resume-item[
   - *Thesis:* Quantum Walk Based Algorithms for Qubit Mapping (*Supervisor*: Prof. Sebastian Feld)
-  - *Research Focus:* Near term and variational quantum algorithms
+  - *Research Experience:* Honors Project on Noise Induced Barren Plateaus at Leiden University (*Supervisor*: Prof. Jordi Tura)
   - *Relevant Coursework:* Applied Quantum Algorithms, Quantum Information, Quantum Computing Architecture
 ]
 
