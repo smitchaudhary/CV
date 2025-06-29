@@ -28,8 +28,8 @@
 
 #show: resume.with(
   author: (
-    firstname: "Smit",
-    lastname: "Chaudhary",
+    firstname: "",
+    lastname: "Smit Chaudhary",
     email: "smitchaudhary10@gmail.com",
     homepage: "https://smitchaudhary.github.io/",
     phone: "(+31) 06 1378 2478",
@@ -39,7 +39,7 @@
     orcid: "0000-0003-0243-6513",
     // birth: "January 1, 1990",
     // linkedin: "smitchaudhary",
-    address: "Rotterdamm The Netherlands",
+    address: "Rotterdam, The Netherlands",
     positions: (
       "Software Engineer",
       "Quantum Algorithms Developer",
@@ -59,7 +59,7 @@
 #resume-entry(
   title: "Quantum Algorithms Developer",
   location: "Amsterdam, The Netherlands",
-  date: "2022 - Present",
+  date: "Nov 2022 - Present",
   description: "Pasqal",
   title-link: "https://github.com/DeveloperPaul123",
 )
