@@ -1,0 +1,138 @@
+#import "modern-cv/lib.typ": *
+
+// Custom function for publications
+#let publication(
+  title: "",
+  authors: "",
+  venue: "",
+  date: "",
+  url: none,
+  description: none,
+) = {
+  block(below: 0.8em)[
+    #if url != none [
+      #link(url)[#text(size: 11pt, weight: "bold", fill: rgb("#2E86AB"))[#title]]
+    ] else [
+      #text(size: 11pt, weight: "bold", fill: rgb("#2E86AB"))[#title]
+    ] \
+    #authors \
+    #text(style: "italic")[#venue], #date
+    #if description != none [
+      #v(0.2em)
+      #description
+    ]
+  ]
+}
+
+
+
+#show: resume.with(
+  author: (
+    firstname: "Smit",
+    lastname: "Chaudhary",
+    email: "smitchaudhary10@gmail.com",
+    homepage: "https://smitchaudhary.github.io/",
+    phone: "(+31) 06 1378 2478",
+    github: "smitchaudhary",
+    // twitter: none,
+    // scholar: "",
+    orcid: "0000-0003-0243-6513",
+    // birth: "January 1, 1990",
+    // linkedin: "smitchaudhary",
+    address: "Rotterdamm The Netherlands",
+    positions: (
+      "Software Engineer",
+      "Quantum Algorithms Developer",
+      "Quantum Physicist",
+    ),
+  ),
+  profile-picture: none,
+  date: datetime.today().display(),
+  language: "en",
+  colored-headers: true,
+  show-footer: false,
+  paper-size: "us-letter",
+)
+
+= Experience
+
+#resume-entry(
+  title: "Quantum Algorithms Developer",
+  location: "Amsterdam, The Netherlands",
+  date: "2022 - Present",
+  description: "Pasqal",
+  title-link: "https://github.com/DeveloperPaul123",
+)
+
+#resume-item[
+  - #lorem(20)
+  - #lorem(15)
+  - #lorem(25)
+]
+
+#resume-entry(
+  title: "Quantum Computing Intern",
+  location: "California, USA",
+  date: "May 2022 - Sept 2022",
+  description: "Menten AI",
+)
+
+#resume-item[
+  - #lorem(20)
+  - #lorem(12)
+  - #lorem(12)
+]
+
+= Education
+
+#resume-entry(
+  title: "Techniche Universitat Delft",
+  location: "Delft, The Netherlands",
+  date: "August 2020 - July 2022",
+  description: "M.Sc. in Applied Physics",
+)
+
+#resume-item[
+  - #lorem(20)
+  - #lorem(15)
+  - #lorem(25)
+]
+
+
+= Selected Publications
+
+#publication(
+  title: "Solving Fluid Dynamics Equations with Differentiable Quantum Circuits",
+  authors: [#text(weight: "bold", fill: rgb("#262F99"))[S. Chaudhary], G. T. Balducci, O. Kyriienko, P. K. Barkoutsos, L. Cardarelli, A. A. Gentile],
+  venue: "Proceedings of the 35th Parallel CFD International Conference 2024",
+  date: "May 2025",
+  url: "https://juser.fz-juelich.de/record/1041810"
+)
+
+#publication(
+  title: "Quantum Circuit Training with Growth-Based Architectures",
+  authors: [C. Duffy, #text(weight: "bold", fill: rgb("#262F99"))[S. Chaudhary], G. V. Velikova],
+  venue: "arXiv preprint",
+  date: "Nov 2024",
+  url: "https://arxiv.org/abs/2411.16560"
+)
+
+#publication(
+  title: "Towards a scalable discrete quantum generative adversarial neural network",
+  authors: [#text(weight: "bold", fill: rgb("#262F99"))[S. Chaudhary], P. Huembeli, I. MacCormack, T. L. Patti, J. Kossaifi, A. Galda],
+  venue: "arXiv preprint",
+  date: "2022",
+  url: "https://arxiv.org/abs/2209.13993"
+)
+
+= Skills
+
+#resume-skill-item(
+  "Programming",
+  (strong("Python"), strong("C/C++"), "Rust", "Verilog"),
+)
+#resume-skill-item("Languages", (strong("English"), "Hindi", "Gujarati"))
+#resume-skill-item(
+  "Libraries & Utilities",
+  (strong("Git"), strong("PyTorch"), "Pennylane", "Tensorflow", "Jax", "Cirq", "Qiskit"),
+)
