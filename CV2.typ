@@ -93,7 +93,7 @@
 )
 
 #resume-item[
-  - *Thesis:* "Quantum Walk Based Qubit Mapping" (Supervisor: Prof. Sebastian Feld)
+  - *Thesis:* Quantum Walk Based Algorithms for Qubit Mapping (*Supervisor*: Prof. Sebastian Feld)
   - *Relevant Coursework:* Applied Quantum Algorithms, Quantum Information, Quantum Computing Architecture
   - *Research Focus:* Near term and variational quantum algorithms
 ]
@@ -107,8 +107,8 @@
 
 #resume-item[
   - *Relevant Coursework:* Quantum Computing, Quantum Field Theory, Statistical Mechanics, Probability and Statistics, Optics
-  - *Undergraduate Project:* "Bohmian Mechanics and Quantum Information" (Supervisor: Prof. Kaushik Bhattacharya)
-  - *Research Experience:* Summer Research at IISER Kolkata under Prof. Prasanta Panigrahi
+  - *Undergraduate Project:* Bohmian Mechanics and Quantum Information (*Supervisor*: Prof. Kaushik Bhattacharya)
+  - *Research Experience:* Summer Research at IISER Kolkata on Quantum Machine Learning (*Supervisor*: Prof. Prasanta Panigrahi)
 ]
 
 = Selected Publications
@@ -132,8 +132,8 @@
 #publication(
   title: "Towards a scalable discrete quantum generative adversarial neural network",
   authors: [#text(weight: "bold")[S. Chaudhary], P. Huembeli, I. MacCormack, T. L. Patti, J. Kossaifi, A. Galda],
-  venue: "arXiv preprint",
-  date: "2022",
+  venue: "Quantum Science and Technology",
+  date: "April 2023",
   url: "https://arxiv.org/abs/2209.13993"
 )
 
