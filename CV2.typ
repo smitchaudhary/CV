@@ -98,12 +98,24 @@
   - #lorem(25)
 ]
 
+#resume-entry(
+  title: "Indian Institute of Technology, Kanpur",
+  location: "Kanpur, India",
+  date: "July 2016 - May 2020",
+  description: "B.S. in Physics",
+)
+
+#resume-item[
+  - #lorem(20)
+  - #lorem(15)
+  - #lorem(25)
+]
 
 = Selected Publications
 
 #publication(
   title: "Solving Fluid Dynamics Equations with Differentiable Quantum Circuits",
-  authors: [#text(weight: "bold", fill: rgb("#262F99"))[S. Chaudhary], G. T. Balducci, O. Kyriienko, P. K. Barkoutsos, L. Cardarelli, A. A. Gentile],
+  authors: [#text(weight: "bold")[S. Chaudhary], G. T. Balducci, O. Kyriienko, P. K. Barkoutsos, L. Cardarelli, A. A. Gentile],
   venue: "Proceedings of the 35th Parallel CFD International Conference 2024",
   date: "May 2025",
   url: "https://juser.fz-juelich.de/record/1041810"
@@ -111,7 +123,7 @@
 
 #publication(
   title: "Quantum Circuit Training with Growth-Based Architectures",
-  authors: [C. Duffy, #text(weight: "bold", fill: rgb("#262F99"))[S. Chaudhary], G. V. Velikova],
+  authors: [C. Duffy, #text(weight: "bold")[S. Chaudhary], G. V. Velikova],
   venue: "arXiv preprint",
   date: "Nov 2024",
   url: "https://arxiv.org/abs/2411.16560"
@@ -119,7 +131,7 @@
 
 #publication(
   title: "Towards a scalable discrete quantum generative adversarial neural network",
-  authors: [#text(weight: "bold", fill: rgb("#262F99"))[S. Chaudhary], P. Huembeli, I. MacCormack, T. L. Patti, J. Kossaifi, A. Galda],
+  authors: [#text(weight: "bold")[S. Chaudhary], P. Huembeli, I. MacCormack, T. L. Patti, J. Kossaifi, A. Galda],
   venue: "arXiv preprint",
   date: "2022",
   url: "https://arxiv.org/abs/2209.13993"
