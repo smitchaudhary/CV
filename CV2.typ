@@ -65,9 +65,10 @@
 )
 
 #resume-item[
-  - #lorem(20)
-  - #lorem(15)
-  - #lorem(25)
+  - Developed quantum scientific machine learning algorithms using variational quantum circuits to solve aerodynamics PDEs, creating quantum alternatives to physics-informed neural networks
+  - Served as technical lead on European Union funded projects, driving collaboration with major aerospace industry partners
+  - Architected quantum software infrastructure and built hardware-aware circuit capabilities, making strategic technical decisions that aligned algorithms with neutral atom hardware constraints while enhancing both open-source and proprietary frameworks
+  - Mentored research interns and junior developers, leading to successful project contributions and published research outcomes
 ]
 
 #resume-entry(
