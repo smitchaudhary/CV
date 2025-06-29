@@ -86,29 +86,29 @@
 = Education
 
 #resume-entry(
-  title: "Techniche Universitat Delft",
+  title: "Technische Universiteit Delft",
   location: "Delft, The Netherlands",
   date: "August 2020 - July 2022",
-  description: "M.Sc. in Applied Physics",
+  description: "Master of Science in Applied Physics",
 )
 
 #resume-item[
-  - #lorem(20)
-  - #lorem(15)
-  - #lorem(25)
+  - *Thesis:* "Quantum Walk Based Qubit Mapping" (Supervisor: Prof. Sebastian Feld)
+  - *Relevant Coursework:* Applied Quantum Algorithms, Quantum Information, Quantum Computing Architecture
+  - *Research Focus:* Near term and variational quantum algorithms
 ]
 
 #resume-entry(
   title: "Indian Institute of Technology, Kanpur",
   location: "Kanpur, India",
   date: "July 2016 - May 2020",
-  description: "B.S. in Physics",
+  description: "Bachelor of Science in Physics",
 )
 
 #resume-item[
-  - #lorem(20)
-  - #lorem(15)
-  - #lorem(25)
+  - *Relevant Coursework:* Quantum Computing, Quantum Field Theory, Statistical Mechanics, Probability and Statistics, Optics
+  - *Undergraduate Project:* "Bohmian Mechanics and Quantum Information" (Supervisor: Prof. Kaushik Bhattacharya)
+  - *Research Experience:* Summer Research at IISER Kolkata under Prof. Prasanta Panigrahi
 ]
 
 = Selected Publications
