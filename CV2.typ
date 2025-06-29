@@ -41,9 +41,9 @@
     // linkedin: "smitchaudhary",
     // address: "Rotterdam, The Netherlands",
     positions: (
-      "Software Engineer",
       "Quantum Algorithms Developer",
       "Quantum Physicist",
+      "Software Engineer",
     ),
   ),
   profile-picture: none,
