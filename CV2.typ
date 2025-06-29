@@ -66,8 +66,7 @@
 
 #resume-item[
   - Developed Quantum Scientific Machine Learning (QSciML) algorithms. Built and trained variational quantum circuits to solve industrially relevant aerodynamics PDEs, creating quantum alternatives to fully classical physics-informed neural networks (PINNs)
-  - Served as technical lead on European Union funded projects, driving collaboration with major aerospace industry partners
-  - Translated quantum research into practical solutions for industrial partners, driving business development opportunities
+  - Served as technical lead on European Union funded projects, translating quantum research into practical solutions and driving business development opportunities with major aerospace industry partners
   - Architected quantum software infrastructure and built hardware-aware circuit capabilities, making strategic technical decisions that aligned algorithms with neutral atom hardware constraints while enhancing both open-source and proprietary frameworks
   - Mentored research interns and junior developers, leading to successful project contributions and published research outcomes
 ]
