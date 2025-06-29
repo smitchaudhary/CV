@@ -95,8 +95,8 @@
 
 #resume-item[
   - *Thesis:* Quantum Walk Based Algorithms for Qubit Mapping (*Supervisor*: Prof. Sebastian Feld)
-  - *Relevant Coursework:* Applied Quantum Algorithms, Quantum Information, Quantum Computing Architecture
   - *Research Focus:* Near term and variational quantum algorithms
+  - *Relevant Coursework:* Applied Quantum Algorithms, Quantum Information, Quantum Computing Architecture
 ]
 
 #resume-entry(
@@ -107,9 +107,9 @@
 )
 
 #resume-item[
-  - *Relevant Coursework:* Quantum Computing, Quantum Field Theory, Statistical Mechanics, Probability and Statistics, Optics
   - *Undergraduate Project:* Bohmian Mechanics and Quantum Information (*Supervisor*: Prof. Kaushik Bhattacharya)
   - *Research Experience:* Summer Research at IISER Kolkata on Quantum Machine Learning (*Supervisor*: Prof. Prasanta Panigrahi)
+  - *Relevant Coursework:* Quantum Computing, Quantum Field Theory, Statistical Mechanics, Probability and Statistics, Optics
 ]
 
 = Selected Publications
