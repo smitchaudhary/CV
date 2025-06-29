@@ -78,9 +78,9 @@
 )
 
 #resume-item[
-  - #lorem(20)
-  - #lorem(12)
-  - #lorem(12)
+  - Developed a novel fully quantum generative adversarial network (QGAN) architecture for discrete and binary data generation
+  - Investigated and implemented quantum circuit features such as noise reuploading in the generator and auxiliary qubits in the discriminator to enhance expressivity
+  - Demonstrated the model's performance on synthetic datasets and low-energy states of Ising models, showing successful data reproduction and generalization capabilities
 ]
 
 = Education
