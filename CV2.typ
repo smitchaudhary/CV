@@ -36,10 +36,10 @@
     github: "smitchaudhary",
     // twitter: none,
     // scholar: "",
-    orcid: "0000-0003-0243-6513",
+    // orcid: "0000-0003-0243-6513",
     // birth: "January 1, 1990",
     // linkedin: "smitchaudhary",
-    address: "Rotterdam, The Netherlands",
+    // address: "Rotterdam, The Netherlands",
     positions: (
       "Software Engineer",
       "Quantum Algorithms Developer",
@@ -68,7 +68,7 @@
   - Developed Quantum Scientific Machine Learning (QSciML) algorithms. Built and trained variational quantum circuits to solve industrially relevant aerodynamics PDEs, creating quantum alternatives to fully classical physics-informed neural networks (PINNs)
   - Served as technical lead on European Union funded projects, translating quantum research into practical solutions and driving business development opportunities with major aerospace industry partners
   - Architected quantum software infrastructure and built hardware-aware circuit capabilities, making strategic technical decisions that aligned algorithms with neutral atom hardware constraints while enhancing both open-source and proprietary frameworks
-  - Mentored research interns and junior developers, leading to successful project contributions and published research outcomes
+  - Mentored 3 research interns and 2 junior developers, leading to successful project contributions and 3 research publications
 ]
 
 #resume-entry(
@@ -135,7 +135,7 @@
   authors: [#text(weight: "bold")[S. Chaudhary], P. Huembeli, I. MacCormack, T. L. Patti, J. Kossaifi, A. Galda],
   venue: "Quantum Science and Technology",
   date: "April 2023",
-  url: "https://arxiv.org/abs/2209.13993"
+  url: "https://iopscience.iop.org/article/10.1088/2058-9565/acc4e4"
 )
 
 = Skills
@@ -147,5 +147,5 @@
 #resume-skill-item("Languages", (strong("English"), "Hindi", "Gujarati"))
 #resume-skill-item(
   "Libraries & Utilities",
-  (strong("Git"), strong("PyTorch"), "Pennylane", "Tensorflow", "Jax", "Cirq", "Qiskit"),
+  (strong("Git"), strong("PyTorch"), "NumPy", "Pennylane", "Tensorflow", "Jax", "Cirq", "Qiskit"),
 )
