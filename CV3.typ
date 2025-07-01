@@ -96,10 +96,10 @@
 )
 
 #resume-item[
-  - *Thesis:* Quantum Walk Based Algorithms for Qubit Mapping
+  - *Thesis:* _Quantum Walk Based Algorithms for Qubit Mapping_
 
     Built combinatorial optimization algorithms in Python using constraint satisfaction and greedy routing approaches
-  - *Research Project:* Generative Adversarial Network Framework
+  - *Research Project:* _Generative Adversarial Network Framework_
 
     Developed custom ML framework with gradient computation engine from scratch using NumPy with modular OOP architecture
   - *Relevant Coursework:* Machine Learning, Information Theory, Object-Oriented Programming (C++), Computational Physics
@@ -113,8 +113,8 @@
 )
 
 #resume-item[
-  - *Research Experience:* Quantum Machine Learning algorithms research at IISER Kolkata
-  - *Undergraduate Project:* Bohmian Mechanics and Quantum Information
+  - *Research Experience:* _Quantum Machine Learning algorithms research_ at IISER Kolkata
+  - *Undergraduate Project:* _Bohmian Mechanics and Quantum Information_
   - *Relevant Coursework:* Fundamentals of Computing, Probability and Statistics, Mathematical Methods, Electronics
 ]
 
@@ -145,7 +145,7 @@
 
 #resume-skill-item(
   "Programming",
-  (strong("Python"), strong("C/C++"), "Rust"),
+  (strong("Python"), strong("C/C++"), "Rust", "Julia"),
 )
 #resume-skill-item(
   "ML & Data Tools",
